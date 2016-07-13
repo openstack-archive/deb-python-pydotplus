@@ -1,0 +1,15 @@
+Description: No intersphinx
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: no
+Last-Update: 2016-07-13
+
+--- python-pydotplus-2.0.2.orig/doc/conf.py
++++ python-pydotplus-2.0.2/doc/conf.py
+@@ -30,7 +30,6 @@ sys.path.insert(0, os.path.abspath('../l
+ # ones.
+ extensions = [
+     'sphinx.ext.autodoc',
+-    'sphinx.ext.intersphinx',
+     'sphinx.ext.viewcode',
+ ]
+ 

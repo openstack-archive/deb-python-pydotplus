@@ -1,0 +1,5 @@
+python-pydotplus (2.0.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #831038)
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 13 Jul 2016 22:07:59 +0200
