@@ -18,8 +18,8 @@ Build-Depends-Indep: graphviz,
                      python3-pyparsing (>= 2.0.1),
                      python3-pytest,
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-pydotplus.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-pydotplus.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-pydotplus?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-pydotplus -b debian/newton
 Homepage: http://pydotplus.readthedocs.org/
 
 Package: python-pydotplus
