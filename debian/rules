@@ -20,7 +20,7 @@ endif
 
 override_dh_sphinxdoc:
 ifeq (,$(findstring nodocs, $(DEB_BUILD_OPTIONS)))
-	sphinx-build -b html doc debian/python-pydotplus-doc/usr/share/doc/python-pydotplus-doc/html
+	READTHEDOCS=False sphinx-build -b html doc debian/python-pydotplus-doc/usr/share/doc/python-pydotplus-doc/html
 	dh_sphinxdoc -O--buildsystem=python_distutils
 endif
 
